@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void get(){
 
-        Log.d("MainActivity.class","我更新的数据");
+        Log.d("MainActivity.class","我更新的数据dsda");
     }
+
+
+
 }
