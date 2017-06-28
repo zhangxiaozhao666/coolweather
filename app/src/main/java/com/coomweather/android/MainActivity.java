@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import org.litepal.LitePal;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -11,11 +13,4 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void get(){
-
-        Log.d("MainActivity.class","我更新的数据dsda");
-    }
-
-
-
 }

@@ -16,7 +16,6 @@ public class City extends DataSupport {
 //    表示省份id
     private int provinceId;
 
-
     public int getId() {
         return id;
     }
@@ -26,6 +25,7 @@ public class City extends DataSupport {
     }
 
     public String getCityName() {
+
         return cityName;
     }
 
