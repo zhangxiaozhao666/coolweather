@@ -11,10 +11,10 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         //      使用java8
-        jackOptions.enabled=true;
+        jackOptions.enabled = true;
     }
     //      使用java8
-    compileOptions{
+    compileOptions {
         sourceCompatibility org.gradle.api.JavaVersion.VERSION_1_8
         sourceCompatibility org.gradle.api.JavaVersion.VERSION_1_8
     }
